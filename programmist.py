@@ -1,5 +1,5 @@
 i = 0
-while i < 1000
+while i < 1000:
 	count = str(input())
 	acount = int(count[-1])
 	ccount = int(count)
@@ -25,5 +25,5 @@ while i < 1000
 		else:
 			f.write(count, 'программиста', \n)
 	i += 1
-
+	f.сlose()
 
